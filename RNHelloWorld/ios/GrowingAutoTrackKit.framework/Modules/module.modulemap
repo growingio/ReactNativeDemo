@@ -1,0 +1,6 @@
+framework module GrowingAutoTrackKit {
+  umbrella header "GrowingAutoTrackKit.h"
+
+  export *
+  module * { export * }
+}
