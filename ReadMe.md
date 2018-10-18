@@ -77,12 +77,18 @@ Windows:
 
 ###IOS端
 1，安装react native相关的运行环境
+
 2，下载示例Demo代码
+
 3，进入/ReactNativeDemo/RNHelloWorld目录下安装依赖包：
    npm install
+   
 4,进入到node_modules/react-native-autotrack-growingio/目录下集成GIO RN打点事件
  执行 ./hook.js -run
+ 
 5，命令行运行示例：
    /ReactNativeDemo/RNHelloWorld$react-native run-ios
+   
 6,xcode运行示例
   通过xcode打开ios文件夹中的项目，点击运行即可。
+  
