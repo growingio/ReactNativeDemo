@@ -41,7 +41,7 @@ GrowingIO React Native SDK 有两个版本：
 
 ### 二、 Demo 运行
 
-###Android端
+### Android端
 
 1. 首先需要安装 Android Studio，强烈建议用户安装
 2. 到工程目录下执行 npm install --save https://github.com/growingio/GIORNHook.git
@@ -76,7 +76,7 @@ Windows:
 4. 执行 yarn install
 5. 在 android studio 中点击运行 app
 
-###IOS端
+### IOS端
 
 1，安装react native相关的运行环境
 
