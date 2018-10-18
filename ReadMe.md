@@ -41,6 +41,7 @@ GrowingIO React Native SDK 有两个版本：
 
 ### 二、 Demo 运行
 
+###Android端
 1. 首先需要安装 Android Studio，强烈建议用户安装
 2. 到工程目录下执行 npm install --save https://github.com/growingio/GIORNHook.git
 
@@ -74,3 +75,14 @@ Windows:
 4. 执行 yarn install
 5. 在 android studio 中点击运行 app
 
+###IOS端
+1，安装react native相关的运行环境
+2，下载示例Demo代码
+3，进入/ReactNativeDemo/RNHelloWorld目录下安装依赖包：
+   npm install
+4,进入到node_modules/react-native-autotrack-growingio/目录下集成GIO RN打点事件
+ 执行 ./hook.js -run
+5，命令行运行示例：
+   /ReactNativeDemo/RNHelloWorld$react-native run-ios
+6,xcode运行示例
+  通过xcode打开ios文件夹中的项目，点击运行即可。
