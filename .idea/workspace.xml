@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5f3e8c3e-83bb-42ff-9ede-2b5c28a0a6f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/RNTestDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/liz.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNHelloWorld/android/app/src/main/assets/gio_hybrid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNHelloWorld/android/app/src/main/java/com/rnhelloworld/HybridTrackActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNHelloWorld/android/app/src/main/java/com/rnhelloworld/MyActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNHelloWorld/android/app/src/main/java/com/rnhelloworld/MyIntentModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNHelloWorld/android/app/src/main/java/com/rnhelloworld/MyReactPackage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNHelloWorld/android/app/src/main/java/com/rnhelloworld/MyWebViewActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNHelloWorld/android/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNHelloWorld/android/app/src/main/res/drawable/ic_home_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNHelloWorld/android/app/src/main/res/drawable/ic_notifications_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNHelloWorld/android/app/src/main/res/layout/activity_hybrid_track.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNHelloWorld/android/app/src/main/res/layout/activity_my.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNHelloWorld/android/app/src/main/res/layout/activity_my_web_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNHelloWorld/android/app/src/main/res/menu/navigation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNHelloWorld/android/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNHelloWorld/android/app/src/main/res/xml/network_security_config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingAutoTrackKit.framework/_CodeSignature/CodeDirectory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingAutoTrackKit.framework/_CodeSignature/CodeRequirements-1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingCoreKit.framework/_CodeSignature/CodeDirectory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingCoreKit.framework/_CodeSignature/CodeRequirements-1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingReactNativeKit.framework/GrowingReactNativeKit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingReactNativeKit.framework/_CodeSignature/CodeDirectory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingReactNativeKit.framework/_CodeSignature/CodeRequirements-1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingReactNativeKit.framework/_CodeSignature/CodeSignature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ManTrack/CstmEventTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/ManTrack/CstmEventTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ManTrack/PvarEventTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/ManTrack/PvarEventTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ManTrack/PvarEventTestExp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ManTrack/UserEventTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/ManTrack/UserEventTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ManTrack/UserEventTestExp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/UIElementsTest/MainUI.js" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/UIElementsTest/MainUI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/UIElementsTest/MenuItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/UIElementsTest/MenuItems.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/UIElementsTest/MenuItemsExp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/UIElementsTest/TextInputs.js" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/UIElementsTest/TextInputs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/android/app/src/main/java/com/rnhelloworld/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/android/app/src/main/java/com/rnhelloworld/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/android/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/android/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/android/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingAutoTrackKit.framework/GrowingAutoTrackKit" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingAutoTrackKit.framework/GrowingAutoTrackKit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingAutoTrackKit.framework/Headers/GrowingAutoTrackKit.h" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingAutoTrackKit.framework/Headers/GrowingAutoTrackKit.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingAutoTrackKit.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingAutoTrackKit.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingAutoTrackKit.framework/Modules/module.modulemap" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingAutoTrackKit.framework/Modules/module.modulemap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingAutoTrackKit.framework/_CodeSignature/CodeDirectory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingAutoTrackKit.framework/_CodeSignature/CodeRequirements" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingAutoTrackKit.framework/_CodeSignature/CodeRequirements" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingAutoTrackKit.framework/_CodeSignature/CodeRequirements-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingAutoTrackKit.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingAutoTrackKit.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingAutoTrackKit.framework/_CodeSignature/CodeSignature" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a225a7e79496c5a1d847c78c3db651eb302ec867" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingCoreKit.framework/GrowingCoreKit" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingCoreKit.framework/GrowingCoreKit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingCoreKit.framework/Headers/GrowingCoreKit.h" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingCoreKit.framework/Headers/GrowingCoreKit.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingCoreKit.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingCoreKit.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingCoreKit.framework/Modules/module.modulemap" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingCoreKit.framework/Modules/module.modulemap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingCoreKit.framework/_CodeSignature/CodeDirectory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingCoreKit.framework/_CodeSignature/CodeRequirements" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingCoreKit.framework/_CodeSignature/CodeRequirements" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingCoreKit.framework/_CodeSignature/CodeRequirements-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingCoreKit.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingCoreKit.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingCoreKit.framework/_CodeSignature/CodeSignature" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingAutoTrackKit.framework/_CodeSignature/CodeSignature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingReactNativeKit.framework/GrowingReactNativeKit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingReactNativeKit.framework/Headers/GrowingReactNativeKit.h" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingReactNativeKit.framework/Headers/GrowingReactNativeKit.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingReactNativeKit.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingReactNativeKit.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingReactNativeKit.framework/Modules/module.modulemap" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingReactNativeKit.framework/Modules/module.modulemap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingReactNativeKit.framework/_CodeSignature/CodeDirectory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingReactNativeKit.framework/_CodeSignature/CodeRequirements" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingReactNativeKit.framework/_CodeSignature/CodeRequirements" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingReactNativeKit.framework/_CodeSignature/CodeRequirements-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingReactNativeKit.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingReactNativeKit.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/GrowingReactNativeKit.framework/_CodeSignature/CodeSignature" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/GrowingCoreKit.framework/_CodeSignature/CodeSignature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/AppDelegate.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/Base.lproj/LaunchScreen.xib" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/Base.lproj/LaunchScreen.xib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNHelloWorld/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/RNHelloWorld/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.txt" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="804545476">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="m" value="1" />
+          <entry key="md" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="ObjectiveC" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="md" value="1017" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Markdown" value="1016" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ReadMe.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="35">
+                <caret line="72" column="35" lean-forward="true" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/AppDelegate.m">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ReadMe.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Encapsulation issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f3e8c3e-83bb-42ff-9ede-2b5c28a0a6f2" name="Default Changelist" comment="" />
+      <created>1539775597905</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539775597905</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.59299" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="simpleUML" order="7" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="0" visible="true" weight="0.8054523" />
+      <window_info anchor="bottom" id="SonarLint" order="1" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.55018586" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Code Outline" order="2" />
+      <window_info anchor="right" id="ADB-Duang" order="3" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="PlantUML" order="5" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/RNHelloWorld/ios/RNHelloWorld/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="35">
+            <caret line="72" column="35" lean-forward="true" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,11 +1,3 @@
-/**
- * 页面简介:
- * 本页面为页面元素列表入口
- * 页面效果为，单击列表标题，展开标题内容。
- * 由于不方便后期自动化测试，暂时不使用此效果，页面代码保留：
- * 作者：宋现锋 
- * 日期：2018-08-30
- */
 import React, { Component } from 'react';
 import {
     StyleSheet,
@@ -13,6 +5,7 @@ import {
     View,
     TouchableOpacity,
     SectionList,
+    NativeModules
 } from 'react-native';
 
 // 初始化总数据
@@ -32,6 +25,16 @@ var AllArr = [
         { key: 24, name:"WebViewTest"}
     ]
     },
+    {
+        name:'Android原生页面',UIItems:[
+            {key:31,name:'WebView'},
+            {key:36,name:'WebViewTrack'},
+            {key:32,name:'X5WebView'},
+            {key:33,name:'RNWebView'},
+            {key:34,name:'MyActivity'},
+            {key:35,name:'MyActivityContainsFragment'},
+        ]
+    }
 
 ];
 
@@ -61,7 +64,16 @@ export default class MenuItems extends Component {
                         { key: 24, name: "WebViewTest" }
                     ]
                 },
-
+                {       
+                    name:'Android原生页面',UIItems:[
+                        {key:31,name:'WebView'},
+                        {key:32,name:'X5WebView'},
+                        {key:33,name:'RNWebView'},
+                        {key:34,name:'MyActivity'},
+                        {key:35,name:'MyActivityContainsFragment'},
+                        {key:36,name:'WebViewTrack'},
+                    ]
+                }
             ]
         };
         //for循环添加字段删除字段添加标示和key
@@ -109,7 +121,7 @@ export default class MenuItems extends Component {
         return (
             <TouchableOpacity onPress={() => { this.show(section) }}>
                 <View style={styles.ViewForTextStyle}>
-                    <Text style={{ fontSize: 20, borderLeftWidth: 5, color: 'white' }}>{section.name}</Text>
+                    <Text style={{ fontSize: 20, paddingLeft: 5, color: 'white' }}>{section.name}</Text>
                 </View>
             </TouchableOpacity>
         );
@@ -168,9 +180,14 @@ export default class MenuItems extends Component {
                 console.log("你单击了第二栏三项");
                 navigate('PickerTest');
                 break;
-            case 24:
-                console.log("你单击了第二栏四项");
-                navigate('WebViewTest');
+            case 34:
+                NativeModules.MyIntentModule.startActivityFromJS("com.rnhelloworld.MyActivity", "哈哈哈");
+                break;
+            case 31:
+                NativeModules.MyIntentModule.startActivityFromJS("com.rnhelloworld.MyWebViewActivity", "哈哈哈");
+                break;
+            case 36:
+                NativeModules.MyIntentModule.startActivityFromJS("com.rnhelloworld.HybridTrackActivity", "哈哈哈");
                 break;
             default:
                 console.log("You Click other items");
@@ -204,12 +221,10 @@ const styles = StyleSheet.create({
     },
     cell: {
         height: 40,
-        alignItems: 'center',
-        justifyContent: 'center',
         borderBottomWidth: 1,
         //backgroundColor: 'lightgray',
         fontSize: 18,
-        borderLeftWidth: 10
+        paddingLeft:10
 
     },
 });

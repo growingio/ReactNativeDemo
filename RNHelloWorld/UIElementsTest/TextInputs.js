@@ -36,14 +36,15 @@ export default class TextInputs extends Component {
                     getTextInputRefs={() => [this.noUnderline, this.hugeText]}
                 >
                     <Text style={{ marginBottom: 20 }} text40>
-                        Inputs
+                        测试 chng 
                     </Text>
 
                     <TextInput
                         text70
                         containerStyle={{ marginBottom: INPUT_SPACING }}
                         floatingPlaceholder
-                        placeholder="floatingPlaceholder & helperText"
+                        placeholder="不采集v"
+                        growingParams={{track:"false"}}
                         helperText="this is an helper text"
                         onChangeText={text => this.setState({ error: text ? '' : 'This field is required' })}
                         error={this.state.error}
@@ -53,8 +54,8 @@ export default class TextInputs extends Component {
                         text70
                         containerStyle={{ marginBottom: INPUT_SPACING }}
                         floatingPlaceholder
-                        placeholder="multiline & helperText"
-                        multiline
+                        placeholder="采集v"
+                        growingParams={{track:"true"}}
                         helperText="this is an helper text"
                     />
 

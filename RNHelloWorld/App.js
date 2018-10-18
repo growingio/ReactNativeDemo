@@ -8,13 +8,9 @@
 //测试导航
 import React, { Component } from 'react';
 import CstmEventTest from "./ManTrack/CstmEventTest"
-
+import PvarEventTest from "./ManTrack/PvarEventTest"
 import MainUI from "./UIElementsTest/MainUI"
-
-//import UserEventTest from "./ManTrack/UserEventTest"
-import UserEventTestExp from "./ManTrack/UserEventTestExp"
-//import PvarEventTest from "./ManTrack/PvarEventTest"
-import PvarEventTestExp from "./ManTrack/PvarEventTestExp"
+import UserEventTest from "./ManTrack/UserEventTest"
 
 import {
   AppRegistry,
@@ -42,7 +38,7 @@ export default class Tabnavigator extends Component {
             //设置选中的位置
             selected={this.state.selectedTab === 'Event'}
             //标题
-            title="Cstm事件"
+            title="Cstm"
             //标题样式
             titleStyle={styles.tabText}
             //选中时标题文字样式
@@ -69,9 +65,7 @@ export default class Tabnavigator extends Component {
             {/* <View style={styles.page0}>
               <Text style={{ fontSize: 18, padding: 15, color: 'blue' }}>This is Log Page</Text>
             </View> */}
-            {/* <PvarEventTest /> */}
-            <PvarEventTestExp/>
-
+            <PvarEventTest />
           </TabNavigator.Item>
           <TabNavigator.Item
             selected={this.state.selectedTab === 'Device'}
@@ -84,8 +78,7 @@ export default class Tabnavigator extends Component {
             {/* <View style={styles.page1}>
               <Text style={{ fontSize: 18, padding: 15, color: '#fff' }}>This is Device Page</Text>
             </View> */}
-            {/* <UserEventTest /> */}
-            <UserEventTestExp/>
+            <UserEventTest />
 
           </TabNavigator.Item>
           <TabNavigator.Item
@@ -115,7 +108,6 @@ const styles = StyleSheet.create({
   },
   tabText: {
     fontSize: 10,
-    color: 'black'
   },
   selectedTabText: {
     fontSize: 10,

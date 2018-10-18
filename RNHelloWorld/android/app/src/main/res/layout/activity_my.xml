@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="50dp"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusedByDefault="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="Android 原生 Activity"/>
+
+        <EditText
+            android:id="@+id/et"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:background="#eeeeee"
+            android:hint="chng test1"
+            android:maxLines="1"
+            android:padding="5dp"
+            />
+
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:background="#eeeeee"
+            android:hint="chng test2"
+            android:maxLines="1"
+            android:padding="5dp" />
+
+
+        <Button
+            android:id="@+id/track"
+            style="@style/EventButton"
+            android:text="调用 track() 发送 cstm 事件" />
+
+        <Button
+            android:id="@+id/trackWithNumber"
+            style="@style/EventButton"
+            android:text="track() 传入 Number" />
+
+        <Button
+            android:id="@+id/setEvar"
+            style="@style/EventButton"
+            android:text="setEvar() 发送 evar 事件" />
+
+        <Button
+            android:id="@+id/setPeopleVariable"
+            style="@style/EventButton"
+            android:text="setPeopleVariable() 发送 ppl 事件" />
+
+        <!--<Button-->
+        <!--android:id="@+id/page"-->
+        <!--style="@style/EventButton"-->
+        <!--android:text="Page" />-->
+
+        <Button
+            android:id="@+id/setPageVariable"
+            style="@style/EventButton"
+            android:text="setPageVariable() 发送 pvar 事件" />
+
+        <Button
+            android:id="@+id/setVisitor"
+            style="@style/EventButton"
+            android:text="setVisitor" />
+
+        <Button
+            android:id="@+id/setUserId"
+            style="@style/EventButton"
+            android:text="setUserId" />
+
+        <Button
+            android:id="@+id/clearUserId"
+            style="@style/EventButton"
+            android:text="clearUserId" />
+
+        <Button
+            android:id="@+id/setAPPVariable"
+            style="@style/EventButton"
+            android:text="setAPPVariable" />
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -7,7 +7,6 @@ import {
 } from 'react-navigation';
 
 import MenuItems from "./MenuItems"
-import MenuItemsExp from "./MenuItemsExp"
 import Login from "./Login"
 import Buttons from "./Buttons"
 import TextInputs from "./TextInputs"
@@ -31,8 +30,7 @@ export default class MainUI extends Component {
 
 }
 const SimpleAppNavigator=StackNavigator({
-    MenuItemsExp: { screen: MenuItemsExp},
-    //MenuItems: { screen: MenuItems},
+    MenuItems:{screen:MenuItems},
     Login: { screen: Login},
     Buttons: { screen: Buttons},
     TextInputs:{ screen: TextInputs},
@@ -44,6 +42,5 @@ const SimpleAppNavigator=StackNavigator({
 
 },
 {
-    //initialRouteName:'MenuItems',
-    initialRouteName: 'MenuItemsExp',
+    initialRouteName:'MenuItems',
 })

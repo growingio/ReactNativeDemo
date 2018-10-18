@@ -48,13 +48,12 @@
 		4204D73B211D2DC200B3EEDF /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4204D73A211D2DC200B3EEDF /* Storyboard.storyboard */; };
 		4204D73D211D2E6C00B3EEDF /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4204D73C211D2E6C00B3EEDF /* test.jpg */; };
 		4204D740211D2E8F00B3EEDF /* RNTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4204D73F211D2E8F00B3EEDF /* RNTableViewController.m */; };
-		426D30162137CF72006E0A5C /* 月下狼嚎.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 426D30152137CF72006E0A5C /* 月下狼嚎.jpg */; };
-		42F1E33C213E353700CAE0D3 /* GrowingReactNativeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F1E339213E353700CAE0D3 /* GrowingReactNativeKit.framework */; };
-		42F1E33D213E353700CAE0D3 /* GrowingAutoTrackKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F1E33A213E353700CAE0D3 /* GrowingAutoTrackKit.framework */; };
-		42F1E33E213E353700CAE0D3 /* GrowingCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F1E33B213E353700CAE0D3 /* GrowingCoreKit.framework */; };
-		42F1E382213E409900CAE0D3 /* libGrowingIORNPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F1E35C213E405D00CAE0D3 /* libGrowingIORNPlugin.a */; };
+		4204D7B1211D3BDE00B3EEDF /* GrowingAutoTrackKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4204D7AD211D3BDD00B3EEDF /* GrowingAutoTrackKit.framework */; };
+		4204D7B2211D3BDE00B3EEDF /* GrowingCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4204D7AE211D3BDD00B3EEDF /* GrowingCoreKit.framework */; };
+		4204D7B3211D3BDE00B3EEDF /* GrowingReactNativeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4204D7B0211D3BDE00B3EEDF /* GrowingReactNativeKit.framework */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		8DB0FB33AD5940F38874CEED /* libGrowingIORNPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3AC350764343D5BC2F2202 /* libGrowingIORNPlugin.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 /* End PBXBuildFile section */
 
@@ -297,9 +296,9 @@
 			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
 			remoteInfo = "jschelpers-tvOS";
 		};
-		42F1E35B213E405D00CAE0D3 /* PBXContainerItemProxy */ = {
+		4204D776211D371F00B3EEDF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B014ACBB7E744872A11313A5 /* GrowingIORNPlugin.xcodeproj */;
+			containerPortal = 39A46AB8A89847A283DE13FB /* GrowingIORNPlugin.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 18E0BD4C1F988C9400049DE1;
 			remoteInfo = GrowingIORNPlugin;
@@ -365,6 +364,7 @@
 		2D02E47B1E0B4A5D006451C7 /* RNHelloWorld-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RNHelloWorld-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* RNHelloWorld-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RNHelloWorld-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		39A46AB8A89847A283DE13FB /* GrowingIORNPlugin.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = GrowingIORNPlugin.xcodeproj; path = "../node_modules/react-native-growingio/ios/GrowingIORNPlugin.xcodeproj"; sourceTree = "<group>"; };
 		4204D70C211C5D2D00B3EEDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4204D70E211C5D3700B3EEDF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		4204D710211C5D4300B3EEDF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
@@ -381,16 +381,14 @@
 		4204D73C211D2E6C00B3EEDF /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 		4204D73E211D2E8F00B3EEDF /* RNTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNTableViewController.h; sourceTree = "<group>"; };
 		4204D73F211D2E8F00B3EEDF /* RNTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTableViewController.m; sourceTree = "<group>"; };
+		4204D7AD211D3BDD00B3EEDF /* GrowingAutoTrackKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GrowingAutoTrackKit.framework; path = RNHelloWorld/GrowingAutoTrackKit.framework; sourceTree = "<group>"; };
+		4204D7AE211D3BDD00B3EEDF /* GrowingCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GrowingCoreKit.framework; path = RNHelloWorld/GrowingCoreKit.framework; sourceTree = "<group>"; };
 		4204D7AF211D3BDE00B3EEDF /* Growing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Growing.h; path = RNHelloWorld/Growing.h; sourceTree = "<group>"; };
-		426D30152137CF72006E0A5C /* 月下狼嚎.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "月下狼嚎.jpg"; path = "../../../../../Pictures/个人照片/月下狼嚎.jpg"; sourceTree = "<group>"; };
-		42F1E339213E353700CAE0D3 /* GrowingReactNativeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GrowingReactNativeKit.framework; sourceTree = "<group>"; };
-		42F1E33A213E353700CAE0D3 /* GrowingAutoTrackKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GrowingAutoTrackKit.framework; sourceTree = "<group>"; };
-		42F1E33B213E353700CAE0D3 /* GrowingCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GrowingCoreKit.framework; sourceTree = "<group>"; };
+		4204D7B0211D3BDE00B3EEDF /* GrowingReactNativeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GrowingReactNativeKit.framework; path = RNHelloWorld/GrowingReactNativeKit.framework; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
-		B014ACBB7E744872A11313A5 /* GrowingIORNPlugin.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = GrowingIORNPlugin.xcodeproj; path = "../node_modules/react-native-growingio/ios/GrowingIORNPlugin.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -406,11 +404,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42F1E382213E409900CAE0D3 /* libGrowingIORNPlugin.a in Frameworks */,
-				42F1E33E213E353700CAE0D3 /* GrowingCoreKit.framework in Frameworks */,
-				42F1E33D213E353700CAE0D3 /* GrowingAutoTrackKit.framework in Frameworks */,
-				42F1E33C213E353700CAE0D3 /* GrowingReactNativeKit.framework in Frameworks */,
 				4204D71B211C5D7500B3EEDF /* CoreLocation.framework in Frameworks */,
+				8DB0FB33AD5940F38874CEED /* libGrowingIORNPlugin.a in Frameworks */,
 				4204D719211C5D6B00B3EEDF /* libsqlite3.tbd in Frameworks */,
 				4204D717211C5D6300B3EEDF /* libicucore.tbd in Frameworks */,
 				4204D715211C5D5800B3EEDF /* AdSupport.framework in Frameworks */,
@@ -418,6 +413,8 @@
 				4204D711211C5D4300B3EEDF /* CoreTelephony.framework in Frameworks */,
 				4204D70F211C5D3700B3EEDF /* Security.framework in Frameworks */,
 				4204D70D211C5D2D00B3EEDF /* Foundation.framework in Frameworks */,
+				4204D7B3211D3BDE00B3EEDF /* GrowingReactNativeKit.framework in Frameworks */,
+				4204D7B1211D3BDE00B3EEDF /* GrowingAutoTrackKit.framework in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
@@ -426,6 +423,7 @@
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
+				4204D7B2211D3BDE00B3EEDF /* GrowingCoreKit.framework in Frameworks */,
 				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
@@ -542,11 +540,11 @@
 		13B07FAE1A68108700A75B9A /* RNHelloWorld */ = {
 			isa = PBXGroup;
 			children = (
-				42F1E33A213E353700CAE0D3 /* GrowingAutoTrackKit.framework */,
-				42F1E33B213E353700CAE0D3 /* GrowingCoreKit.framework */,
-				42F1E339213E353700CAE0D3 /* GrowingReactNativeKit.framework */,
-				426D2FEE2137CF4B006E0A5C /* imgs */,
 				4204D7AF211D3BDE00B3EEDF /* Growing.h */,
+				4204D7AD211D3BDD00B3EEDF /* GrowingAutoTrackKit.framework */,
+				4204D7AE211D3BDD00B3EEDF /* GrowingCoreKit.framework */,
+				4204D7B0211D3BDE00B3EEDF /* GrowingReactNativeKit.framework */,
+				4204D73C211D2E6C00B3EEDF /* test.jpg */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -612,19 +610,10 @@
 			name = "Recovered References";
 			sourceTree = "<group>";
 		};
-		426D2FEE2137CF4B006E0A5C /* imgs */ = {
+		4204D773211D371F00B3EEDF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				426D30152137CF72006E0A5C /* 月下狼嚎.jpg */,
-				4204D73C211D2E6C00B3EEDF /* test.jpg */,
-			);
-			name = imgs;
-			sourceTree = "<group>";
-		};
-		42F1E358213E405D00CAE0D3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				42F1E35C213E405D00CAE0D3 /* libGrowingIORNPlugin.a */,
+				4204D777211D371F00B3EEDF /* libGrowingIORNPlugin.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -662,7 +651,7 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				B014ACBB7E744872A11313A5 /* GrowingIORNPlugin.xcodeproj */,
+				39A46AB8A89847A283DE13FB /* GrowingIORNPlugin.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -826,8 +815,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 42F1E358213E405D00CAE0D3 /* Products */;
-					ProjectRef = B014ACBB7E744872A11313A5 /* GrowingIORNPlugin.xcodeproj */;
+					ProductGroup = 4204D773211D371F00B3EEDF /* Products */;
+					ProjectRef = 39A46AB8A89847A283DE13FB /* GrowingIORNPlugin.xcodeproj */;
 				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
@@ -1113,11 +1102,11 @@
 			remoteRef = 3DAD3EAE1DF850E9000B6D8A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		42F1E35C213E405D00CAE0D3 /* libGrowingIORNPlugin.a */ = {
+		4204D777211D371F00B3EEDF /* libGrowingIORNPlugin.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libGrowingIORNPlugin.a;
-			remoteRef = 42F1E35B213E405D00CAE0D3 /* PBXContainerItemProxy */;
+			remoteRef = 4204D776211D371F00B3EEDF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */ = {
@@ -1170,7 +1159,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				426D30162137CF72006E0A5C /* 月下狼嚎.jpg in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				4204D73B211D2DC200B3EEDF /* Storyboard.storyboard in Resources */,
 				4204D73D211D2E6C00B3EEDF /* test.jpg in Resources */,
@@ -1302,7 +1290,6 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-growingio/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-growingio/ios/**",
 				);
 				INFOPLIST_FILE = RNHelloWorldTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -1327,7 +1314,6 @@
 				COPY_PHASE_STRIP = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-growingio/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-growingio/ios/**",
 				);
 				INFOPLIST_FILE = RNHelloWorldTests/Info.plist;
@@ -1361,7 +1347,6 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-growingio/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-growingio/ios/**",
 				);
 				INFOPLIST_FILE = RNHelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1392,7 +1377,6 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-growingio/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-growingio/ios/**",
 				);
 				INFOPLIST_FILE = RNHelloWorld/Info.plist;
@@ -1425,7 +1409,6 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-growingio/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-growingio/ios/**",
 				);
 				INFOPLIST_FILE = "RNHelloWorld-tvOS/Info.plist";
@@ -1461,7 +1444,6 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-growingio/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-growingio/ios/**",
 				);
 				INFOPLIST_FILE = "RNHelloWorld-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1495,7 +1477,6 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-growingio/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-growingio/ios/**",
 				);
 				INFOPLIST_FILE = "RNHelloWorld-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1528,7 +1509,6 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-growingio/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-growingio/ios/**",
 				);
 				INFOPLIST_FILE = "RNHelloWorld-tvOSTests/Info.plist";

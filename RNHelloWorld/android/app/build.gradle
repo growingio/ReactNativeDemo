@@ -73,10 +73,12 @@ import com.android.build.OutputFile
  */
 
 project.ext.react = [
-    entryFile: "index.js"
+        entryFile: "index.js"
 ]
 
 apply from: "../../node_modules/react-native/react.gradle"
+//增加 GrowingIO SDK
+apply plugin: 'com.growingio.android'
 
 /**
  * Set this to true to create two separate APKs instead of one:
@@ -106,6 +108,10 @@ android {
         ndk {
             abiFilters "armeabi-v7a", "x86"
         }
+
+        resValue("string", "growingio_project_id", "0a1b4118dd954ec3bcc69da5138bdb96")
+        resValue("string", "growingio_url_scheme", "growing.39a76ddd57b7c1ba")
+        vectorDrawables.useSupportLibrary = true
     }
     splits {
         abi {
@@ -126,7 +132,7 @@ android {
         variant.outputs.each { output ->
             // For each separate APK per architecture, set a unique version code as described here:
             // http://tools.android.com/tech-docs/new-build-system/user-guide/apk-splits
-            def versionCodes = ["armeabi-v7a":1, "x86":2]
+            def versionCodes = ["armeabi-v7a": 1, "x86": 2]
             def abi = output.getFilter(OutputFile.ABI)
             if (abi != null) {  // null for the universal-debug, universal-release variants
                 output.versionCodeOverride =
@@ -137,10 +143,15 @@ android {
 }
 
 dependencies {
-    compile project(':react-native-growingio')
     compile fileTree(dir: "libs", include: ["*.jar"])
     compile "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
     compile "com.facebook.react:react-native:+"  // From node_modules
+
+    compile 'com.growingio.android.test:t-vds-android-agent:RN-autotrack-2.5.0-beta'
+
+    compile 'com.android.support:design:26.1.0'
+    compile 'com.android.support.constraint:constraint-layout:1.1.2'
+    compile 'com.android.support:support-vector-drawable:26.1.0'
 }
 
 // Run this once to be able to run the application with BUCK

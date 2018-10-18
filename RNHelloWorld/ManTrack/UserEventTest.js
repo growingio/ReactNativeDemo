@@ -1,13 +1,3 @@
-/**
- * 页面简介:本功能页面为以下两个函数的测试用例：
- * 1，setVisitor
- * 2，setUserId
- * 3,clearUserId
- * 页面效果为，单击列表标题，展开标题内容。
- * 由于不方便后期自动化测试，暂时不使用此效果，页面代码保留：
- * 作者：宋现锋 
- * 日期：2018-08-30
- */
 import React, { Component } from 'react';
 import {
     StyleSheet,
@@ -123,7 +113,7 @@ export default class UserEventTest extends Component {
         return (
             <TouchableOpacity onPress={() => { this.show(section) }}>
                 <View style={styles.ViewForTextStyle}>
-                    <Text style={{ fontSize: 20, borderLeftWidth: 5, color: 'white' }}>{section.name}</Text>
+                    <Text style={{ fontSize: 20, paddingLeft: 5, color: 'white' }}>{section.name}</Text>
                 </View>
             </TouchableOpacity>
         );
@@ -237,12 +227,11 @@ const styles = StyleSheet.create({
         borderBottomWidth: 1,
         //backgroundColor: 'lightgray',
         fontSize: 18,
-        borderLeftWidth: 10
+        paddingLeft:10
 
     },
     title: {
         ...Typography.text40,
-        alignItems: 'center',
-        borderTopWidth: 18
+        alignItems: 'center'
     },
 });

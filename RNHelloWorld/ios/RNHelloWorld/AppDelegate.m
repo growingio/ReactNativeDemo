@@ -42,10 +42,10 @@
   [Growing setEnableLog:YES];
   //[Growing setEnableLog:NO];
   
-//  //弹出圈选按钮
-//  id drag = NSClassFromString(@"GrowingLocalCircleWindow");
-//  [drag performSelector:@selector(startCircle)];
-//  
+  //弹出圈选按钮
+  id drag = NSClassFromString(@"GrowingLocalCircleWindow");
+  [drag performSelector:@selector(startCircle)];
+  
   return YES;
 }
 

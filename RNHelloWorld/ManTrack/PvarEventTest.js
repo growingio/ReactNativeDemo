@@ -1,12 +1,3 @@
-/**
- * 页面简介:本功能页面为以下两个函数的测试用例：
- * 1，setPeopleVariable
- * 2，setEvar
- * 页面效果为，单击列表标题，展开标题内容。
- * 由于不方便后期自动化测试，暂时不使用此效果，页面代码保留：
- * 作者：宋现锋 
- * 日期：2018-08-30
- */
 import React, { Component } from 'react';
 import {
     StyleSheet,
@@ -18,22 +9,12 @@ import { Text, View, Typography } from 'react-native-ui-lib';
 // 初始化总数据
 var AllArr = [
     {
-        name: 'SetPPL测试', opers: [
-            { key: 11, name: 'setPeopleVariable({"ekey":"evalue","Date":"2018-07-02"})' }, 
-            { key: 12, name: 'setPeopleVariable({"Name":"北京"}' },
-            { key: 13, name: 'setPeopleVariable({})' }, 
-            { key: 14, name: 'setPeopleVariable(null)' },
-            { key: 15, name: 'setPeopleVariable("Hello World")' }, 
-            { key: 16, name: 'setPeopleVariable({"关键字":"HelloWorld"})' }]
+        name: 'SetPPL测试', opers: [{ key: 11, name: 'setPeopleVariable({"ekey":"evalue","Date":"2018-07-02"})' }, { key: 12, name: 'setPeopleVariable({"Name":"北京"}' },
+        { key: 13, name: 'setPeopleVariable({})' }, { key: 14, name: 'setPeopleVariable(null)' }, { key: 15, name: 'setPeopleVariable("Hello World")' }, { key: 16, name: 'setPeopleVariable({"关键字":"HelloWorld"})' }]
     },
     {
-        name: 'setEvar测试', opers: [
-            { key: 21, name: 'setEvar({"ekey":"evalue","Date":"2018-07 - 02"}' },
-            { key: 22, name: 'setEvar({"Name":"北京"}）' },
-            { key: 23, name: 'setEvar({})' },
-            { key: 24, name: 'setEvar(null)' }, 
-            { key: 25, name: 'setEvar("Hello World")' },
-            { key: 26, name: 'setEvar({"关键字":"HelloWorld"})' }]
+        name: 'setEvar测试', opers: [{ key: 21, name: 'setEvar({"ekey":"evalue","Date":"2018-07 - 02"}' },
+        { key: 22, name: 'setEvar({"Name":"北京"}）' }, { key: 23, name: 'setEvar({})' }, { key: 24, name: 'setEvar(null)' }, { key: 25, name: 'setEvar("Hello World")' }, { key: 26, name: 'setEvar({"关键字":"HelloWorld"})' }]
     },
 
 ];
@@ -85,7 +66,7 @@ export default class PvarEventTest extends Component {
     //分组创建的cell
     Cell(data) {
         return (
-            <View style={{ height: 40, justifyContent: 'center', borderBottomColor: 'red'}}>
+            <View style={{ height: 60, justifyContent: 'center', borderBottomColor: 'red'}}>
                 <View style={{ borderBottomWidth: 1, borderBottomColor: '#ececec'}}>
                     <TouchableOpacity onPress={this.clickItem.bind(this, data)}>
                         <Text style={styles.cell}>{data.item.name}</Text>
@@ -116,7 +97,7 @@ export default class PvarEventTest extends Component {
         return (
             <TouchableOpacity onPress={() => { this.show(section) }}>
                 <View style={styles.ViewForTextStyle}>
-                    <Text style={{ fontSize: 20, borderLeftWidth: 5,color:'white'}}>{section.name}</Text>
+                    <Text style={{ fontSize: 20, paddingLeft:5,color:'white'}}>{section.name}</Text>
                 </View>
             </TouchableOpacity>
         );
@@ -136,7 +117,7 @@ export default class PvarEventTest extends Component {
                     renderItem={this.Cell.bind(this)}//cell绑定时间创建cell
                     keyExtractor={this.extraUniqueKey}//去除警告
                     renderSectionHeader={this.Header.bind(this)}//Header绑定时间创建表头
-                   // scrollEnabled={true}//默认是true，false禁止滚动
+                    scrollEnabled={true}//默认是true，false禁止滚动
                     ItemSeparatorComponent={() => <View><Text></Text></View>}
                     //SectionSeparatorComponent={() => <View style={{ height: 2,backgroundColor: 'grey' }} />}
                 >
@@ -224,22 +205,20 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         backgroundColor: 'orange',
         borderBottomColor:'green',
-        borderBottomWidth: 1,
-        height: 40
+        height: 60
     },
     cell: {
-        height: 40,
+        height: 60,
         alignItems: 'center',
         justifyContent: 'center',
         borderBottomWidth: 1,
         //backgroundColor: 'lightgray',
         fontSize: 18,
-        borderLeftWidth: 10
+        paddingLeft:10
 
     },
     title: {
         ...Typography.text40,
         alignItems: 'center',
-        borderTopWidth: 18
     },
 });
