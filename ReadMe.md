@@ -85,12 +85,18 @@ Windows:
 3，进入/ReactNativeDemo/RNHelloWorld目录下安装依赖包：
    npm install
    
-4,进入到node_modules/react-native-autotrack-growingio/目录下集成GIO RN打点事件
+4,集成GrowingIO React Native SDK，在工程目录下执行以下命令:
+(1)npm install --save https://github.com/growingio/react-native-growingio.git#develop
+(2)npm install
+(3)react-native link react-native-growingio
+
+5，集成GIORNHOOK，在工程目录下执行以下命令:
+（1）npm install --save https://github.com/growingio/GIORNHook.git
+（2）进入到node_modules/react-native-autotrack-growingio/目录下集成GIO RN打点事件
  执行 ./hook.js -run
  
-5，命令行运行示例：
+6，命令行运行示例：
    /ReactNativeDemo/RNHelloWorld$react-native run-ios
    
-6,xcode运行示例
+7,xcode运行示例
   通过xcode打开ios文件夹中的项目，点击运行即可。
-  
