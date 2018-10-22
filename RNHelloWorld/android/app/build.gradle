@@ -147,7 +147,7 @@ dependencies {
     compile "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
     compile "com.facebook.react:react-native:+"  // From node_modules
 
-    compile 'com.growingio.android.test:t-vds-android-agent:RN-autotrack-2.5.0-beta'
+    compile 'com.growingio.android:vds-android-agent:RN-autotrack-2.5.0-beta9'
 
     compile 'com.android.support:design:26.1.0'
     compile 'com.android.support.constraint:constraint-layout:1.1.2'

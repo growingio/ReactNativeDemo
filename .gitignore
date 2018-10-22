@@ -1,0 +1,8 @@
+.gradle
+.idea/
+/build
+/captures
+.externalNativeBuild
+
+./RNHelloWorld/node_modules/
+
