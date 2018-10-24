@@ -11,6 +11,7 @@
     "react": "^16.3.0-alpha.0",
     "react-native": "0.55.0",
     "react-native-autotrack-growingio": "git+https://github.com/growingio/GIORNHook.git",
+    "react-native-growingio": "git+https://github.com/growingio/react-native-growingio.git#develop",
     "react-native-tab-navigator": "^0.3.4",
     "react-native-ui-lib": "^3.3.202",
     "react-navigation": "^2.11.2"

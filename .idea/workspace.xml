@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f3e8c3e-83bb-42ff-9ede-2b5c28a0a6f2" name="Default Changelist" comment="" />
+    <list default="true" id="5f3e8c3e-83bb-42ff-9ede-2b5c28a0a6f2" name="Default Changelist" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/build.gradle" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/proguard-rules.pro" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/androidTest/java/com/growingio/androiddemo/ExampleInstrumentedTest.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/main/AndroidManifest.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/main/java/com/growingio/androiddemo/MainActivity.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/main/res/drawable/ic_home_black_24dp.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/main/res/drawable/ic_launcher_background.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/main/res/drawable/ic_notifications_black_24dp.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/main/res/layout/activity_main.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/main/res/menu/navigation.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/main/res/values/colors.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/main/res/values/dimens.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/main/res/values/strings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/main/res/values/styles.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/app/src/test/java/com/growingio/androiddemo/ExampleUnitTest.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/build.gradle" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/gradle.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/gradle/wrapper/gradle-wrapper.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/gradle/wrapper/gradle-wrapper.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/gradlew" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/gradlew.bat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RNHelloWorld/AndroidDemo/settings.gradle" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +122,7 @@
         <entry file="file://$PROJECT_DIR$/RNHelloWorld/MyApplication/app/src/main/res/layout/activity_main.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
-              <caret line="33" column="41" lean-forward="true" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+              <caret line="33" column="41" lean-forward="false" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -408,7 +448,7 @@
     <entry file="file://$PROJECT_DIR$/RNHelloWorld/MyApplication/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
-          <caret line="33" column="41" lean-forward="true" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+          <caret line="33" column="41" lean-forward="false" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
           <folding />
         </state>
       </provider>
