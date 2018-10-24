@@ -7,19 +7,20 @@
     "test": "jest"
   },
   "dependencies": {
-    "babel-preset-react-native": "4.0.0",
-    "react": "^16.3.0-alpha.0",
-    "react-native": "0.55.0",
+    "babel-preset-react-native": "^5",
+    "react": "16.4.1",
+    "react-native": "^0.56.0",
     "react-native-autotrack-growingio": "git+https://github.com/growingio/GIORNHook.git",
+    "react-native-growingio": "git+https://github.com/growingio/react-native-growingio.git#develop",
     "react-native-tab-navigator": "^0.3.4",
     "react-native-ui-lib": "^3.3.202",
     "react-navigation": "^2.11.2"
   },
   "devDependencies": {
     "babel-jest": "23.4.2",
-    "babel-preset-react-native": "4.0.0",
+    "babel-preset-react-native": "^5",
     "jest": "23.5.0",
-    "react-test-renderer": "^16.3.0-alpha.0"
+    "react-test-renderer": "16.4.1"
   },
   "jest": {
     "preset": "react-native"
