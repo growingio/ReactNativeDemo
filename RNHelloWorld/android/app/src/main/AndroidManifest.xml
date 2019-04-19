@@ -25,7 +25,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
             <intent-filter>
-                <data android:scheme="growing.39a76ddd57b7c1ba" />
+                <data android:scheme="growing.bc47dc8e1cba1f12" />
 
                 <action android:name="android.intent.action.VIEW" />
 
@@ -37,8 +37,10 @@
         <activity
             android:name=".MyActivity"
             android:label="@string/title_activity_my" />
-        <activity android:name=".MyWebViewActivity" />
-        <activity android:name=".HybridTrackActivity"></activity>
-    </application>
+        <activity android:name=".MyWebViewActivity"
+        android:process=":one_process" />
+        <activity android:name=".HybridTrackActivity" 
+             android:process=":two_process" />
+    </application>w
 
 </manifest>

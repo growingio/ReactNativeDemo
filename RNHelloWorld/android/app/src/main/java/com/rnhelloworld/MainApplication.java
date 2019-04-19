@@ -54,6 +54,10 @@ public class MainApplication extends Application implements ReactApplication {
                 .trackAllFragments()
                 .setTestMode(true)
                 .setDebugMode(true)
+                //如果多进程应用，需要打开多进程，才会采集数据
+                .setMutiprocess(true)
+                //设置支持多进程圈选
+                .supportMultiProcessCircle(true)
                 .setDeeplinkCallback(new DeeplinkCallback() {
                     @Override
                     public void onReceive(Map<String, String> map, int i) {

@@ -109,8 +109,8 @@ android {
             abiFilters "armeabi-v7a", "x86"
         }
 
-        resValue("string", "growingio_project_id", "0a1b4118dd954ec3bcc69da5138bdb96")
-        resValue("string", "growingio_url_scheme", "growing.39a76ddd57b7c1ba")
+        resValue("string", "growingio_project_id", "85864a8537ab43a2a066feb1855c1783")
+        resValue("string", "growingio_url_scheme", "growing.bc47dc8e1cba1f12")
         vectorDrawables.useSupportLibrary = true
     }
     splits {
