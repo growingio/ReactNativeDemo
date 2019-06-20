@@ -1,8 +1,18 @@
 # GrowigIO React Native Demo
 
+兼容版本：
+> 
+兼容 react native 版本：0.46-0.56 , 0.59.9 
+>
+兼容组件 react-navigation 版本：^2.7.4 , ^3.11.0
+>
+兼容组件 react-native-navigation 版本：^1.1.486
+
+
 ### 一、 介绍
 
 GrowingIO React Native SDK 有两个版本：
+
 1. 无埋点 SDK 功能：
 
     |自动采集事件名称   |事件类型   |
@@ -41,62 +51,15 @@ GrowingIO React Native SDK 有两个版本：
 
 ### 二、 Demo 运行
 
-### Android端
+### Android端  
 
-1. 首先需要安装 Android Studio，强烈建议用户安装
-2. 到工程目录下执行 npm install --save https://github.com/growingio/GIORNHook.git
-
-
-Mac:
-
-打开命令行
-进入到node_modules/react-native-autotrack-growingio/目录下
-
-执行 ./hook.js -run
-
-
-
-
-Windows:
-
-在电脑上安装node
-
-打开命令行
-
-进入到node_modules/react-native-autotrack-growingio/目录下
-执行 node npm -i
-执行 node ./hook.js -run
-
-
-
->  注意： 每次执行 npm build 之后，都需要按照上面步骤，执行 ./hook.js -run
-
-
-3. 执行 adb reverse tcp:8081 tcp:8081
-4. 执行 yarn install
-5. 在 android studio 中点击运行 app
+```
+react-native run-andrid
+```
 
 ### IOS端
-
-1，安装react native相关的运行环境
-
-2，下载示例Demo代码
-
-3，进入/ReactNativeDemo/RNHelloWorld目录下安装依赖包：
-   npm install
-   
-4,集成GrowingIO React Native SDK，在工程目录下执行以下命令:
-(1)npm install --save https://github.com/growingio/react-native-growingio.git#develop
-(2)npm install
-(3)react-native link react-native-growingio
-
-5，集成GIORNHOOK，在工程目录下执行以下命令:
-（1）npm install --save https://github.com/growingio/GIORNHook.git
-（2）进入到node_modules/react-native-autotrack-growingio/目录下集成GIO RN打点事件
- 执行 ./hook.js -run
  
-6，命令行运行示例：
-   /ReactNativeDemo/RNHelloWorld$react-native run-ios
+```
+$react-native run-ios
+```
    
-7,xcode运行示例
-  通过xcode打开ios文件夹中的项目，点击运行即可。

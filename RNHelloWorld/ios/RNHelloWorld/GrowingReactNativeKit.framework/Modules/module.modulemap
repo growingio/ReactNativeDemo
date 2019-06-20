@@ -1,6 +1,0 @@
-framework module GrowingReactNativeKit {
-  umbrella header "GrowingReactNativeKit.h"
-
-  export *
-  module * { export * }
-}
