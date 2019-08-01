@@ -3,5 +3,5 @@
 /build
 /captures
 .externalNativeBuild
-./RNHelloWorld/node_modules/
+.node_modules/
 
