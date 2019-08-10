@@ -46,7 +46,7 @@ GrowingIO React Native SDK 有两个版本：
     |setUserId   |设置登录用户ID API   |
     |clearUserId   |清除登录用户ID API   |
 
-##### 注意： 无埋点SDK没有页面的概念，所以不能发送页面级别变量。
+##### 注意： *埋点* SDK没有页面的概念，所以不能发送页面级别变量。
 
 
 ### 二、 Demo 运行
