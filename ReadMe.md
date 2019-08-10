@@ -51,6 +51,11 @@ GrowingIO React Native SDK 有两个版本：
 
 ### 二、 Demo 运行
 
+```
+npm install 
+```
+
+
 ### Android端  
 
 ```
