@@ -46,7 +46,7 @@ GrowingIO React Native SDK 有两个版本：
     |setUserId   |设置登录用户ID API   |
     |clearUserId   |清除登录用户ID API   |
 
-##### 注意： 无埋点SDK没有页面的概念，所以不能发送页面级别变量。
+##### 注意： 埋点SDK没有页面的概念，所以不能发送页面级别变量。
 
 
 ### 二、 Demo 运行
@@ -68,3 +68,14 @@ react-native run-andrid
 $react-native run-ios
 ```
    
+### 集成 SDK 
+请进入 GrowingIO 官网登录您的账号后选择 -> 新建应用   
+
+根据步骤可以顺利集成SDK，这里友情贴出截图：
+![install](https://github.com/growingio/ReactNativeDemo/blob/master/screenshots/install.png)  
+![step1](https://github.com/growingio/ReactNativeDemo/blob/master/screenshots/1.png)    
+![step2](https://github.com/growingio/ReactNativeDemo/blob/master/screenshots/2.png)    
+![step3](https://github.com/growingio/ReactNativeDemo/blob/master/screenshots/3.png)    
+![step4](https://github.com/growingio/ReactNativeDemo/blob/master/screenshots/4.png)    
+
+
