@@ -4,4 +4,4 @@
 /captures
 .externalNativeBuild
 .node_modules/
-
+.app/build/
