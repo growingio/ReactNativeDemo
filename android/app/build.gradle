@@ -145,7 +145,7 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
     implementation "com.facebook.react:react-native:+"  // From node_modules
-    implementation 'com.growingio.android.test:t-vds-android-agent:RN-autotrack-2.7.7@aar'
+    implementation 'com.growingio.android:vds-android-agent:RN-autotrack-2.8.1@aar'
 }
 
 // Run this once to be able to run the application with BUCK

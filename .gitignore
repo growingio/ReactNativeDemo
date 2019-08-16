@@ -3,5 +3,5 @@
 /build
 /captures
 .externalNativeBuild
-.node_modules/
-.app/build/
+node_modules/
+app/build/
